@@ -1,0 +1,57 @@
+.Contact {
+    text-align: center;
+    background-color: rgb(7, 189, 119);
+      height: 100%;
+
+  }
+  .Title{
+   font-size: 75px;
+   color:white;
+   animation-duration: .75s;
+   animation-name: slidein;
+   background-color: darkcyan;
+   margin: 0;
+ }
+ .box{
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  margin: auto;
+ }
+ .icons  {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  animation-name: slidein-left;
+ }
+ .social-icon-link {
+   list-style-type: none;
+   align-items: center;
+   color: rgb(0, 180, 54);
+ }
+ .social-icon-link{
+    text-align: center;
+    transition: 850ms;
+    animation-duration: 1.5s;
+ }
+ @keyframes slidein {
+   from {
+     margin-left: 100%;
+     width: 300%;
+   }
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+
+ }
+ @keyframes slidein-left {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
