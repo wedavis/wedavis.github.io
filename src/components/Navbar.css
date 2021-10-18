@@ -98,10 +98,9 @@
     transition: 850ms;
     animation-direction: reverse;
   }
-.nav-item {
+  .nav-item {
     list-style-type: none;
     align-items: center;
-    display: flex;
   }
   .nav-links {
     text-align: center;
