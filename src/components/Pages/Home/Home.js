@@ -7,9 +7,6 @@ function Home() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>
-          daddy
-        </p>
         <a
           className="Home-link"
           href="https://reactjs.org"
