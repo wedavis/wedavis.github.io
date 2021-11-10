@@ -15,7 +15,8 @@
  .box{
   background-color: lightgrey;
   width: 300px;
-  border: 15px solid green;
+  border-radius: 25px;
+  border: 15px solid rgb(2, 156, 2);
   margin: auto;
  }
  .icons  {
@@ -25,6 +26,7 @@
   animation-name: slidein-left;
  }
  .social-icon-link {
+   margin-right: 5px;
    list-style-type: none;
    align-items: center;
    color: rgb(0, 180, 54);
