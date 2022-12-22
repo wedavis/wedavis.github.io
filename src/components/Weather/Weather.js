@@ -1,6 +1,6 @@
 import React from 'react';
 import coldbg from "./assets/coldbackground.jpg";
-import hotbg from "./assets/sunny.jpg";
+import hotbg from "./assets/sunnybackground.jpg";
 import './Weather.css'
 import { useEffect, useState } from 'react';
 import { getFormattedWeatherData } from './weatherService';
